@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body{
+    font-family: 'poppins', sans-serif;
+    background-image:url("ppbk.jpg");
+    text-align: center;
+    /*background-image: linear-gradient(to right, rgb(241, 185, 230) , rgb(132, 255, 226));*/
+}
+.title{
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+}
+
+.op button{
+    width: 300px;
+    height: 70px;
+    background-color: rgba(128, 0, 128, 0.512);
+    border: 2px solid rgba(128, 128, 128, 0.415);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    border-color: transparent;
+    transition: 0.5s;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+
+button:hover{
+    background-color: lime;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.del button:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+.add button{
+    color: green;
+}
+.del button{
+    color: red;
+}
+.nav{
+    padding :15px 0px 0 0;
+    width: 100vw;
+    height: 5vh;
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 999;
+}
+.nav a{
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+#dept{
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.title{
+    margin: 80px 0 40px 0;
+}
+.op{
+    display: grid;
+    grid-template-columns: repeat(2,350px);
+    width: 45%;
+    margin: auto;
+    margin-top: 100px;
+    row-gap: 70px;
+    
+}
+.op button{
+    font-size: 1.4rem;
+}
